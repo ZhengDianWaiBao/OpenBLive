@@ -1,0 +1,20 @@
+{
+  "name": "cn.zheng-dian-wai-bao.bilibili.open-b-live",
+  "version": "0.0.1-alpha",
+  "description": "Package version of bilibili live open platform",
+  "displayName": "OpenBLive",
+  "unity": "2023.3",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "samples": [  
+    {
+      "displayName": "LoginSample",
+      "path": "Samples~/LoginSample"
+    },
+    {
+      "displayName": "Samples",
+      "path": "Samples~/Samples"
+    }
+  ]
+}
