@@ -339,7 +339,7 @@ namespace NativeWebSocket
                 {
                     await Task.Delay(timeSpan);
                     ReConnectCount++;
-                    Debug.LogWarning($"��������   ������:{maxCount}����ǰ����:{ReConnectCount}");
+                    Debug.LogWarning($"尝试重连   最大次数:{maxCount}，当前次数:{ReConnectCount}");
                     goto ReConnct;
                 }
                 OnError?.Invoke(ex.Message);
